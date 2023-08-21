@@ -1,0 +1,17 @@
+{
+	"values": [
+		"w:generated/tick",
+		"w:poc/animations/tick",
+		"w:generated/path-test/tick",
+		"w:scenes/main/tick",
+		"w:generated/beggar-begging/tick",
+		"w:generated/emperor-speech-1/tick",
+		"w:generated/kaktis-first-scene/tick",
+		"w:generated/mine-entrance/tick",
+		"w:generated/start-camera/tick",
+		"w:generated/transition/tick",
+		"w:generated/castle-travel/tick",
+		"w:poc/spectate",
+		"animated_java:tick"
+	]
+}

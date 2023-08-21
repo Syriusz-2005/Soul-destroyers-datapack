@@ -1,0 +1,34 @@
+{
+  "type": "generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "item",
+          "name": "written_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{pages:['{\"text\":\"My beloved Son!\nIf you are reading this, I\\'m dead.\n\nThere\\'s one thing, I want you to know: I love you, and always will be. Never ever forget about that no matter what happens.\n\n\n \"}','{\"text\":\"My son, here are a few pieces of advice you must also remember. I\\'ve made mistakes and now I don\\'t want you to make them too.\n\nYou\\'ll soon become a soldier and I can imagine that you\\'re not happy about that, and that\\'s ok because you must always know\"}','{\"text\":\"what you\\'re fighting for. Being a hero shall always be a matter of choice.\n\nI can\\'t say too much as I can\\'t be sure who\\'s gonna read this, but please, be patient and curious, find out who\\'s the enemy and who isn\\'t.\n \"}','{\"text\":\"Then just simply follow your heart.\n\nI wish you a wonderful life.\nYour dad.\"}'],title:\"The last will\",author:\"\"}"
+            },
+            {
+              "function": "set_lore",
+              "lore": [
+                {
+                  "text": "Adressed to ... the son of .."
+                },
+                {
+                  "text": "\n The last note written by the ..."
+                },
+                {
+                  "text": "Safe to deliver"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

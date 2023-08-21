@@ -1,0 +1,18 @@
+{
+  "type": "w:warland",
+  "generator": {
+    "type": "flat",
+    "settings": {
+      "features": false,
+      "layers": [
+        {
+          "block": "dirt",
+          "height": 20
+        }
+      ],
+      "structure_overrides": "villages",
+      "biome": "w:warland",
+      "lakes": false
+    }
+  }
+}

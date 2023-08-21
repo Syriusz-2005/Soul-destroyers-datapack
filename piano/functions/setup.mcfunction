@@ -1,0 +1,2 @@
+execute as @e[type=block_display] at @s run data merge entity @s {interpolation_start:-1,transformation:{left_rotation:[0.03f,0.0f,0.0f,1.0f]},interpolation_duration:2}
+execute positioned 1 -59 1 as @e[type=block_display,limit=1,sort=nearest] at @s run data merge entity @s {interpolation_start:-1,transformation:{left_rotation:[0.0f,0.0f,0.0f,1.0f]},interpolation_duration:2}

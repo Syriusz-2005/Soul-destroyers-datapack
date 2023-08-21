@@ -1,0 +1,22 @@
+{
+	"values": [
+		"w:load",
+		"w:generated/kaktis-first-scene/load",
+		"w:generated/start-camera/load",
+		"w:generated/path-test/load",
+		"w:generated/transition/load",
+		"w:generated/castle-travel/load",
+		"w:generated/mine-entrance/load",
+		"w:generated/emperor-speech-1/load",
+		"animated_java:guardian_poc/zzzzzzzz/load",
+		"animated_java:body/zzzzzzzz/load",
+		"w:generated/beggar-begging/load",
+		"animated_java:skeleton_1/zzzzzzzz/load",
+		"animated_java:skeleton_lying_1/zzzzzzzz/load",
+		"animated_java:horse_skeleton_1/zzzzzzzz/load",
+		"animated_java:menu_title/zzzzzzzz/load",
+		"animated_java:beggar_1/zzzzzzzz/load",
+		"animated_java:fish_seller/zzzzzzzz/load",
+		"piano:setup"
+	]
+}
