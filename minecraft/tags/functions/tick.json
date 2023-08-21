@@ -9,9 +9,15 @@
 		"w:generated/kaktis-first-scene/tick",
 		"w:generated/mine-entrance/tick",
 		"w:generated/start-camera/tick",
+		"w:generated/time-before-recruitment/tick",
+		"w:generated/test-pathfinding/tick",
 		"w:generated/transition/tick",
 		"w:generated/castle-travel/tick",
 		"w:poc/spectate",
-		"animated_java:tick"
+		"animated_java:tick",
+		"delta:internal/technical/load",
+		"random:private/load",
+		"techsword:event/load",
+		"knockback:load"
 	]
 }

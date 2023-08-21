@@ -8,6 +8,8 @@
 		"w:generated/castle-travel/load",
 		"w:generated/mine-entrance/load",
 		"w:generated/emperor-speech-1/load",
+		"w:generated/test-pathfinding/load",
+		"w:generated/time-before-recruitment/load",
 		"animated_java:guardian_poc/zzzzzzzz/load",
 		"animated_java:body/zzzzzzzz/load",
 		"w:generated/beggar-begging/load",
@@ -17,6 +19,7 @@
 		"animated_java:menu_title/zzzzzzzz/load",
 		"animated_java:beggar_1/zzzzzzzz/load",
 		"animated_java:fish_seller/zzzzzzzz/load",
-		"piano:setup"
+		"piano:setup",
+		"techsword:event/tick"
 	]
 }

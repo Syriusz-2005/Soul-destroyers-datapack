@@ -51,3 +51,6 @@ execute store result storage test:test test double 0.001 run say hi
 
 execute as @e[type=#animated_java:root,tag=aj.beggar_1.root] run tp @s ~ ~ ~
 execute as @e[type=#animated_java:root,tag=aj.guardian_poc.root,sort=nearest,limit=1] run tp @s ~ ~ ~
+
+
+summon wandering_trader ~ ~ ~ {Tags: ["fxczs"],Invulnerable:true,Silent:true,ActiveEffects: [{Id:14,ShowParticles:false,Duration: 999999999}]} 
