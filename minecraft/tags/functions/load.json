@@ -20,6 +20,9 @@
 		"animated_java:beggar_1/zzzzzzzz/load",
 		"animated_java:fish_seller/zzzzzzzz/load",
 		"piano:setup",
-		"techsword:event/tick"
+		"delta:internal/technical/load",
+		"random:private/load",
+		"techsword:event/load",
+		"knockback:load"
 	]
 }

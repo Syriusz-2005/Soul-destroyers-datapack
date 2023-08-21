@@ -15,9 +15,6 @@
 		"w:generated/castle-travel/tick",
 		"w:poc/spectate",
 		"animated_java:tick",
-		"delta:internal/technical/load",
-		"random:private/load",
-		"techsword:event/load",
-		"knockback:load"
+		"techsword:event/tick"
 	]
 }
