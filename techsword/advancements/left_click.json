@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "techsword:event/left_click"
+  }
+}

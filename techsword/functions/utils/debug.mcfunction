@@ -1,0 +1,1 @@
+execute as @a run tellraw @s [{"text": "Your current sweeping speed is: "},{"score":{"name": "@s","objective": "techsword.rotation_1_delta"},"color": "cyan"},{"text": "(deg/tick)","color": "reset"}]

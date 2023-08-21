@@ -1,0 +1,15 @@
+{
+  "criteria": {
+    "right_click": {
+      "trigger": "player_interacted_with_entity",
+      "conditions": {
+        "entity": {
+          "type": "interaction"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "techsword:event/right_click"
+  }
+}
