@@ -24,6 +24,7 @@
 		"random:private/load",
 		"techsword:event/load",
 		"knockback:load",
-		"mob-abilities:load"
+		"mob-abilities:load",
+		"health:load"
 	]
 }

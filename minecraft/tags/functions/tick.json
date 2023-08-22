@@ -16,6 +16,7 @@
 		"w:poc/spectate",
 		"animated_java:tick",
 		"techsword:event/tick",
-		"mob-abilities:tick"
+		"mob-abilities:tick",
+		"health:tick"
 	]
 }
