@@ -12,7 +12,7 @@ effect give @s minecraft:jump_boost 1 128 true
 effect give @s minecraft:slowness 1 0 true
 
 # Cooldown
-scoreboard players set @s techsword.attack_cooldown 11
+scoreboard players set @s techsword.attack_cooldown 12
 
 # Launch
 scoreboard players set $strength delta.api.launch 6000

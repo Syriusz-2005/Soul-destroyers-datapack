@@ -12,6 +12,9 @@ scoreboard players remove @a[scores={techsword.attack_cooldown=1..}] techsword.a
 scoreboard players remove @a[scores={techsword.push_timer=1..}] techsword.push_timer 1
 scoreboard players reset @a[scores={techsword.push_timer=..0}] techsword.push_counter
 
+# Manage sweep
+scoreboard players remove @a[scores={techsword.sweep_timer=1..}] techsword.sweep_timer 1
+
 # Detect sweeping-motion
 execute as @a[tag=techsword] at @s run function techsword:utils/detect_sweeping_motion
 

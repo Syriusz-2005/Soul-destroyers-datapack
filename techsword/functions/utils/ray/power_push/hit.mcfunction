@@ -1,9 +1,10 @@
 scoreboard players reset @p techsword.dist
-damage @s 10 player_attack
+damage @s 5 player_attack
 
-function delta:api/explosion_particle
-function delta:api/explosion_sound
+# FX
+playsound entity.player.attack.crit master @a ~ ~ ~ 1 1
+particle crit ~ ~ ~ 0.25 0.25 0.25 1 7
 
 # Launch
-scoreboard players set $strength knockback.api.knockback_facing 30
-function knockback:api/knockback_facing
+scoreboard players set $strength techsword.knockback_facing 30
+execute rotated ~ 15 run function techsword:utils/knockback_facing
