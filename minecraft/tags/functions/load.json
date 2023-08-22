@@ -23,6 +23,7 @@
 		"delta:internal/technical/load",
 		"random:private/load",
 		"techsword:event/load",
-		"knockback:load"
+		"knockback:load",
+		"mob-abilities:load"
 	]
 }

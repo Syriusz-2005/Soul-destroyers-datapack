@@ -15,6 +15,7 @@
 		"w:generated/castle-travel/tick",
 		"w:poc/spectate",
 		"animated_java:tick",
-		"techsword:event/tick"
+		"techsword:event/tick",
+		"mob-abilities:tick"
 	]
 }
