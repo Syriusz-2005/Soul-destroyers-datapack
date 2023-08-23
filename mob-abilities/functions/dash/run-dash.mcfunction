@@ -22,7 +22,7 @@ scoreboard players operation $dX mob-abilities.math -= $X mob-abilities.math
 
 scoreboard players operation $dY mob-abilities.math = $_Y mob-abilities.math
 scoreboard players operation $dY mob-abilities.math -= $Y mob-abilities.math
-scoreboard players add $dY mob-abilities.math 100
+scoreboard players add $dY mob-abilities.math 70
 
 scoreboard players operation $dZ mob-abilities.math = $_Z mob-abilities.math
 scoreboard players operation $dZ mob-abilities.math -= $Z mob-abilities.math

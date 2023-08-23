@@ -7,6 +7,9 @@ tag @a[nbt={SelectedItem:{tag:{Tags:["techsword"]}}}] add techsword
 
 # Manage cooldown
 scoreboard players remove @a[scores={techsword.attack_cooldown=1..}] techsword.attack_cooldown 1
+execute as @a[tag=techsword,scores={techsword.attack_cooldown=..0}] at @s anchored eyes run function techsword:utils/attack_by_id
+# Reset stored attack if unequiped weapon
+scoreboard players reset @a[tag=!techsword,scores={techsword.stored_attack_id=0..}] techsword.stored_attack_id
 
 # Manage push scores
 scoreboard players remove @a[scores={techsword.push_timer=1..}] techsword.push_timer 1
@@ -19,9 +22,9 @@ scoreboard players remove @a[scores={techsword.sweep_timer=1..}] techsword.sweep
 execute as @a[tag=techsword] at @s run function techsword:utils/detect_sweeping_motion
 
 # Manage input
-function techsword:manage_input/north
-function techsword:manage_input/south
-function techsword:manage_input/east
-function techsword:manage_input/west
-function techsword:manage_input/up
-function techsword:manage_input/down
+function techsword:summon_input_interaction/north
+function techsword:summon_input_interaction/south
+function techsword:summon_input_interaction/east
+function techsword:summon_input_interaction/west
+function techsword:summon_input_interaction/up
+function techsword:summon_input_interaction/down

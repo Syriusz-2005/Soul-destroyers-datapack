@@ -1,3 +1,8 @@
+## (Coming soon) Wide-slash in opposite direction that last one
+
+# Cooldown
+scoreboard players set @s techsword.attack_cooldown 16
+
 # FX
 execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:attack_fx/wide_slash
 #execute rotated ~ 0 positioned ^1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
@@ -6,9 +11,6 @@ execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:attack_fx/wide_sla
 playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 1.6 0.8
 playsound minecraft:block.rooted_dirt.step master @a ~ ~ ~ 1 1
 effect give @s minecraft:slowness 1 0 true
-
-# Cooldown
-scoreboard players set @s techsword.attack_cooldown 16
 
 # Attack
 scoreboard players set $strength techsword.knockback_facing 9

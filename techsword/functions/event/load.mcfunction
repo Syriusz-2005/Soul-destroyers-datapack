@@ -1,3 +1,6 @@
+#define score_holder &strength strength of knockback/launch
+scoreboard objectives add techsword.knockback_facing dummy
+scoreboard objectives add techsword.stored_attack_id dummy
 scoreboard objectives add techsword.dist dummy
 scoreboard objectives add techsword.push_timer dummy
 scoreboard objectives add techsword.push_counter dummy

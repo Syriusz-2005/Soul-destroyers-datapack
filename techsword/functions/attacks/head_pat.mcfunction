@@ -1,12 +1,14 @@
+## Attack while in air
+
+# Cooldown
+scoreboard players set @s techsword.attack_cooldown 25
+
 # FX
 execute rotated ~ 0 run particle minecraft:cloud ^ ^0.5 ^1.5 0.125 0.75 0.125 0.1 20
 particle crit ^ ^ ^1.5 0.25 0.25 0.25 1 7
 playsound minecraft:entity.player.attack.weak master @a ~ ~ ~ 2 1.5
-playsound entity.player.attack.crit master @a ~ ~ ~ 1.2 1
+playsound entity.player.attack.crit master @a ~ ~ ~ 1.5 1
 effect give @s minecraft:slowness 1 1 true
-
-# Cooldown
-scoreboard players set @s techsword.attack_cooldown 25
 
 # Launch
 scoreboard players set $strength delta.api.launch 2000
