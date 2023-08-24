@@ -5,6 +5,11 @@ scoreboard objectives add techsword.dist dummy
 scoreboard objectives add techsword.push_timer dummy
 scoreboard objectives add techsword.push_counter dummy
 scoreboard objectives add techsword.sweep_timer dummy
+
+# Usless frigin shid that only takes two values, what a waste of memory >:(((
+scoreboard objectives add techsword.sweep_direction dummy
+scoreboard objectives add techsword.last_wide_attack_direction dummy
+
 scoreboard objectives add techsword.attack_cooldown dummy
 scoreboard objectives add techsword.rotation_0 dummy
 scoreboard objectives add techsword.rotation_0_delta dummy

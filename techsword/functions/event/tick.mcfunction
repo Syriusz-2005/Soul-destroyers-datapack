@@ -21,6 +21,9 @@ scoreboard players remove @a[scores={techsword.sweep_timer=1..}] techsword.sweep
 # Detect sweeping-motion
 execute as @a[tag=techsword] at @s run function techsword:utils/detect_sweeping_motion
 
+# Show cooldown bar
+execute as @a[tag=techsword] run function techsword:utils/show_cooldown_bar
+
 # Manage input
 function techsword:summon_input_interaction/north
 function techsword:summon_input_interaction/south

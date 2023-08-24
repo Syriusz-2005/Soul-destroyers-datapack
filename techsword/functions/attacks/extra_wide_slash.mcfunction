@@ -1,4 +1,9 @@
-## (Coming soon) Wide-slash in opposite direction that last one
+## Wide-slash in opposite direction that last one
+
+#Apply sum statistics
+scoreboard players operation @s techsword.last_wide_attack_direction = @s techsword.sweep_direction
+scoreboard players reset @s techsword.sweep_direction
+scoreboard players reset @s techsword.last_wide_attack_direction
 
 # Cooldown
 scoreboard players set @s techsword.attack_cooldown 16
@@ -19,7 +24,7 @@ execute as @e[distance=0.1..3.5] run damage @s 2 player_attack
 
 # Launch
 scoreboard players set $strength delta.api.launch -2137
-execute rotated ~ -15 run function delta:api/launch_looking
+execute rotated ~ 15 run function delta:api/launch_looking
 
 #debug
-#say Sweep-a-ttack!
+say Wide-sweep-a-ttack!

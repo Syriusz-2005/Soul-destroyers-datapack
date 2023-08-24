@@ -1,5 +1,9 @@
 ## Attack while moving mouse sideways
 
+#Apply sum statistics
+scoreboard players operation @s techsword.last_wide_attack_direction = @s techsword.sweep_direction
+scoreboard players reset @s techsword.sweep_direction
+
 # Cooldown
 scoreboard players set @s techsword.attack_cooldown 17
 
