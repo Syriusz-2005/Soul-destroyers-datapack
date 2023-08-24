@@ -17,6 +17,8 @@
 		"animated_java:tick",
 		"techsword:event/tick",
 		"mob-abilities:tick",
-		"health:tick"
+		"health:tick",
+		"w:generated/city-camp-fast-travel/tick",
+		"w:generated/camp-city-fast-travel/tick"
 	]
 }

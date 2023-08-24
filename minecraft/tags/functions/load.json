@@ -25,6 +25,8 @@
 		"techsword:event/load",
 		"knockback:load",
 		"mob-abilities:load",
-		"health:load"
+		"health:load",
+		"w:generated/city-camp-fast-travel/load",
+		"w:generated/camp-city-fast-travel/load"
 	]
 }

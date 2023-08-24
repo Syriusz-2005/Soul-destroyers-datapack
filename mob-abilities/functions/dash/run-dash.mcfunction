@@ -28,9 +28,9 @@ scoreboard players operation $dZ mob-abilities.math = $_Z mob-abilities.math
 scoreboard players operation $dZ mob-abilities.math -= $Z mob-abilities.math
 
 
-execute store result entity @s Motion[0] double .02 run scoreboard players get $dX mob-abilities.math
-execute store result entity @s Motion[1] double .003 run scoreboard players get $dY mob-abilities.math
-execute store result entity @s Motion[2] double .02 run scoreboard players get $dZ mob-abilities.math
+# execute store result entity @s Motion[0] double .02 run scoreboard players get $dX mob-abilities.math
+# execute store result entity @s Motion[1] double .003 run scoreboard players get $dY mob-abilities.math
+# execute store result entity @s Motion[2] double .02 run scoreboard players get $dZ mob-abilities.math
 
 effect give @s speed 3 2 true
 
