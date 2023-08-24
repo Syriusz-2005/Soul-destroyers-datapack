@@ -15,3 +15,6 @@ scoreboard objectives add techsword.rotation_0 dummy
 scoreboard objectives add techsword.rotation_0_delta dummy
 #scoreboard objectives add techsword.rotation_1 dummy
 #scoreboard objectives add techsword.rotation_1_delta dummy
+
+scoreboard objectives add techsword.effects.parried dummy
+scoreboard objectives add techsword.parry_timer dummy

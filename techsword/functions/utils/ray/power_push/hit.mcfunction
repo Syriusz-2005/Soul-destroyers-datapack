@@ -1,5 +1,5 @@
 scoreboard players reset @p techsword.dist
-damage @s 5 player_attack
+damage @s 7 player_attack
 
 # FX
 playsound entity.player.attack.crit master @a ~ ~ ~ 1 1

@@ -12,7 +12,7 @@ playsound minecraft:item.armor.equip_elytra master @a ~ ~ ~ 1 0.8
 effect give @s minecraft:slowness 1 0 true
 
 # Launch
-scoreboard players set $strength delta.api.launch 6900
+scoreboard players set $strength delta.api.launch 6211
 execute rotated ~ -90 run function delta:api/launch_looking
 
 # Attack

@@ -9,7 +9,7 @@ scoreboard players reset @s techsword.last_wide_attack_direction
 scoreboard players set @s techsword.attack_cooldown 16
 
 # FX
-execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:attack_fx/wide_slash
+execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:fx/wide_slash
 #execute rotated ~ 0 positioned ^1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^ ^ ^2 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^-1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
@@ -27,4 +27,4 @@ scoreboard players set $strength delta.api.launch -2137
 execute rotated ~ 15 run function delta:api/launch_looking
 
 #debug
-say Wide-sweep-a-ttack!
+#say Wide-sweep-a-ttack!

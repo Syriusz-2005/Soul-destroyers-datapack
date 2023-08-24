@@ -8,7 +8,7 @@ scoreboard players reset @s techsword.sweep_direction
 scoreboard players set @s techsword.attack_cooldown 17
 
 # FX
-execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:attack_fx/wide_slash
+execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:fx/wide_slash
 #execute rotated ~ 0 positioned ^1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^ ^ ^2 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^-1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
