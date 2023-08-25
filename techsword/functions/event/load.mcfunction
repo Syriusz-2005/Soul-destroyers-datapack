@@ -11,6 +11,7 @@ scoreboard objectives add techsword.sweep_direction dummy
 scoreboard objectives add techsword.last_wide_attack_direction dummy
 
 scoreboard objectives add techsword.attack_cooldown dummy
+scoreboard objectives add techsword.skill_cooldown dummy
 scoreboard objectives add techsword.rotation_0 dummy
 scoreboard objectives add techsword.rotation_0_delta dummy
 #scoreboard objectives add techsword.rotation_1 dummy

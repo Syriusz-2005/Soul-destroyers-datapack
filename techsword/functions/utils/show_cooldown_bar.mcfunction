@@ -1,3 +1,6 @@
+execute if score @s techsword.parry_timer matches 1.. run title @s actionbar {"text": "|||||||||||||||||||||||||", "color": "gold"}
+execute if score @s techsword.parry_timer matches 1.. run return 0
+
 execute if score @s techsword.attack_cooldown matches ..0 run title @s actionbar {"text": "|||||||||||||||||||||||||", "color": "green"}
 
 execute if score @s techsword.attack_cooldown matches 1 run title @s actionbar [{"text": "|", "color": "red"},{"text": "||||||||||||||||||||||||", "color": "green"}]

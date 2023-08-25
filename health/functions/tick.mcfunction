@@ -13,10 +13,8 @@ execute as @e[tag=w.soul,tag=!w.soul.after-spawn] run effect give @s glowing inf
 execute as @e[tag=w.soul,tag=!w.soul.after-spawn] run team join blue @s
 execute as @e[tag=w.soul,tag=!w.soul.after-spawn] run tag @s add w.soul.after-spawn
 
-execute as @e[tag=w.soul] at @s if entity @p[distance=..0.6] run function health:as-soul
+execute as @e[tag=w.soul] at @s if entity @p[distance=..0.8] run function health:as-soul
 
 
 execute as @e[nbt={Item:{tag:{Tags:['w.soul-spawner']}}}] at @s run function health:summon-soul
 execute as @e[nbt={Item:{tag:{Tags:['w.soul-spawner']}}}] run kill @s
-
-summon skeleton ~ ~ ~ {DeathLootTable:"health:burglar"}

@@ -20,5 +20,5 @@ scoreboard players set $strength delta.api.launch 6300
 execute rotated ~ 0 run function delta:api/launch_looking
 
 # Ray
-scoreboard players set @s techsword.dist 35
+scoreboard players set @s techsword.dist 40
 function techsword:utils/ray/power_push/ray

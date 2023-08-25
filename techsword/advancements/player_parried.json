@@ -1,0 +1,20 @@
+{
+  "criteria": {
+    "parried hurt player": {
+      "trigger": "minecraft:entity_hurt_player",
+      "conditions": {
+        "damage": {
+          "type": {
+            "source_entity": {
+              "nbt": "{Tags:[\"techsword.effects.parried\"]}"
+            }
+          }
+        }
+      }
+    }
+  },
+  "requirements": [["parried hurt player"]],
+  "rewards": {
+    "function": "techsword:event/player_parried"
+  }
+}

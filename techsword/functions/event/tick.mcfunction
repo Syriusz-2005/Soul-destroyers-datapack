@@ -6,6 +6,8 @@ tag @a[tag=techsword] remove techsword
 tag @a[nbt={SelectedItem:{tag:{Tags:["techsword"]}}}] add techsword
 
 # Manage cooldown
+scoreboard players remove @a[scores={techsword.skill_cooldown=1..}] techsword.skill_cooldown 1
+scoreboard players set @a[scores={techsword.skill_cooldown=1..}] techsword.parry_timer 0
 scoreboard players remove @a[scores={techsword.attack_cooldown=1..}] techsword.attack_cooldown 1
 execute as @a[tag=techsword] unless score @s techsword.attack_cooldown matches 1.. at @s anchored eyes run function techsword:utils/attack_by_id
 # Reset stored attack if unequiped weapon
@@ -18,6 +20,7 @@ scoreboard players reset @a[scores={techsword.push_timer=..0}] techsword.push_co
 scoreboard players remove @a[scores={techsword.push_timer=1..}] techsword.push_timer 1
 scoreboard players remove @a[scores={techsword.sweep_timer=1..}] techsword.sweep_timer 1
 scoreboard players remove @a[scores={techsword.parry_timer=1..}] techsword.parry_timer 1
+scoreboard players remove @a[scores={techsword.attack_timer=1..}] techsword.attack_timer 1
 
 # Remove slowness when now parrying
 effect clear @a[scores={techsword.parry_timer=..0}] slowness

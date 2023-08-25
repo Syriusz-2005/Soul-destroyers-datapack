@@ -3,10 +3,6 @@
 # Cooldown
 scoreboard players set @s techsword.attack_cooldown 12
 
-# Apply statistics
-scoreboard players set @s techsword.push_timer 17
-scoreboard players add @s techsword.push_counter 1
-
 # FX
 particle cloud ^ ^ ^2.5 0.2 0.2 0.2 0.03 7 force
 particle minecraft:cloud ~ ~0.5 ~ 0.125 0 0.125 0.08 10 force
@@ -21,5 +17,5 @@ scoreboard players set $strength delta.api.launch 6000
 execute rotated ~ 30 run function delta:api/launch_looking
 
 # Ray
-scoreboard players set @s techsword.dist 35
+scoreboard players set @s techsword.dist 37
 function techsword:utils/ray/push/ray
