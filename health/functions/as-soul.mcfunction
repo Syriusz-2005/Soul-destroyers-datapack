@@ -1,8 +1,13 @@
 
+execute store result score #absorption w.internal run data get entity @p AbsorptionAmount
 
-execute at @a[distance=..0.7,tag=w.player] run effect give @p absorption 15 1
-execute at @a[distance=..0.7,tag=w.player] run tp @s ~ ~-50 ~
-execute at @a[distance=..0.7,tag=w.player] run effect clear @s glowing
-execute at @a[distance=..0.7,tag=w.player] run kill @s
+execute if score #absorption w.internal matches 0 run effect give @p absorption 15 0
+execute if score #absorption w.internal matches 1.. run effect clear @p absorption
 
-execute at @a[distance=..0.7,tag=w.player] run playsound entity.experience_orb.pickup master @a ~ ~ ~
+execute if score #absorption w.internal matches 2.. run effect give @p absorption 15 1
+
+execute at @p run tp @s ~ ~-50 ~
+execute at @p run effect clear @s glowing
+execute at @p run kill @s
+
+execute at @p run playsound entity.experience_orb.pickup master @a ~ ~ ~
