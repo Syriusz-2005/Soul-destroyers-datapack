@@ -12,4 +12,8 @@ scoreboard objectives add mob-abilities.dash.dashing-ticks dummy
 #declare tag mob-abilities.cobweb-marker
 scoreboard objectives add mob-abilities.cobweb-throw.cooldown dummy
 scoreboard objectives add mob-abilities.cobweb-throw.lifetime dummy
+scoreboard objectives add mob-abilities.dx dummy
+scoreboard objectives add mob-abilities.dy dummy
+scoreboard objectives add mob-abilities.dz dummy
+
 
