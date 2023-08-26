@@ -14,11 +14,11 @@
 		"w:generated/transition/tick",
 		"w:generated/castle-travel/tick",
 		"w:poc/spectate",
-		"animated_java:tick",
 		"techsword:event/tick",
 		"mob-abilities:tick",
 		"health:tick",
 		"w:generated/city-camp-fast-travel/tick",
-		"w:generated/camp-city-fast-travel/tick"
+		"w:generated/camp-city-fast-travel/tick",
+		"animated_java:tick"
 	]
 }
