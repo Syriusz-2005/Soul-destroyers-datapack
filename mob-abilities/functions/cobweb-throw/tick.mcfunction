@@ -1,4 +1,8 @@
 
+execute if block ~ ~ ~ cobweb run setblock ~ ~ ~ air
+execute if block ~ ~1 ~ cobweb run setblock ~ ~1 ~ air
+
+
 #preparing cooldown
 scoreboard players remove @s mob-abilities.cobweb-throw.cooldown 1
 execute if score @s mob-abilities.cobweb-throw.cooldown matches 1.. run return 1
