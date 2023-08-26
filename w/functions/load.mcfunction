@@ -4,6 +4,8 @@ scoreboard objectives add w.scenes dummy
 scoreboard objectives add w.death deathCount
 scoreboard objectives add w.death-ticks dummy
 
+scoreboard objectives add w.modelId dummy
+
 #declare score_holder #w.gameState
 #declare tag w.player
 #declare tag w.dead defines if the player has just died
@@ -15,3 +17,13 @@ scoreboard objectives add w.death-ticks dummy
 team add oponents
 team modify oponents color red
 team modify oponents friendlyFire false
+
+
+scoreboard objectives add w.x dummy
+scoreboard objectives add w.y dummy
+scoreboard objectives add w.z dummy
+
+
+scoreboard objectives add w.cx dummy
+scoreboard objectives add w.cy dummy
+scoreboard objectives add w.cz dummy
