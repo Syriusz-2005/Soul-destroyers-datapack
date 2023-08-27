@@ -54,3 +54,8 @@ execute as @e[type=#animated_java:root,tag=aj.guardian_poc.root,sort=nearest,lim
 
 
 summon wandering_trader ~ ~ ~ {Tags: ["fxczs"],Invulnerable:true,Silent:true,ActiveEffects: [{Id:14,ShowParticles:false,Duration: 999999999}]} 
+
+
+execute store result score @s w.modelSkeleton.lastHp run data get entity @s Health
+
+summon minecraft:skeleton ~ ~ ~ {Tags:["w.lavaSpider.skeleton", "mob-abilities.cobweb-thrower"],HandItems:[{},{}],DeathLootTable:"health:burglar"}

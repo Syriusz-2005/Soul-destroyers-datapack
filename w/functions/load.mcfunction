@@ -27,3 +27,6 @@ scoreboard objectives add w.z dummy
 scoreboard objectives add w.cx dummy
 scoreboard objectives add w.cy dummy
 scoreboard objectives add w.cz dummy
+
+scoreboard objectives add w.modelSkeleton.lastHp dummy
+
