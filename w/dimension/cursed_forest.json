@@ -1,0 +1,22 @@
+{
+  "type": "w:cursed_forest",
+  "generator": {
+    "type": "flat",
+    "settings": {
+      "features": false,
+      "layers": [
+        {
+          "block": "grass",
+          "height": 1
+        },
+        {
+          "block": "dirt",
+          "height": 20
+        }
+      ],
+      "structure_overrides": "villages",
+      "biome": "w:cursed_forest",
+      "lakes": false
+    }
+  }
+}

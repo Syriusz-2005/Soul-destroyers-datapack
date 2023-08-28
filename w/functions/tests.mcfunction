@@ -58,4 +58,8 @@ summon wandering_trader ~ ~ ~ {Tags: ["fxczs"],Invulnerable:true,Silent:true,Act
 
 execute store result score @s w.modelSkeleton.lastHp run data get entity @s Health
 
-summon minecraft:skeleton ~ ~ ~ {Tags:["w.lavaSpider.skeleton", "mob-abilities.cobweb-thrower"],HandItems:[{},{}],DeathLootTable:"health:burglar"}
+summon minecraft:skeleton ~ ~ ~ {Tags:["w.lavaSpider.skeleton", "mob-abilities.cobweb-thrower"],HandItems:[{},{}],DeathLootTable:"health:burglar",Attributes:[{Name:"minecraft:generic.follow_range",Base: 40}]}
+
+
+summon wandering_trader ~ ~ ~ {WanderTarget:{X:-256, Y:1, Z:-104}}
+data merge entity @e[type=wandering_trader,sort=nearest,limit=1] {WanderTarget:{X:-236,Y:1,Z:-110}}
