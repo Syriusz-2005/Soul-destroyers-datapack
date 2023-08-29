@@ -63,3 +63,6 @@ summon minecraft:skeleton ~ ~ ~ {Tags:["w.lavaSpider.skeleton", "mob-abilities.c
 
 summon wandering_trader ~ ~ ~ {WanderTarget:{X:-256, Y:1, Z:-104}}
 data merge entity @e[type=wandering_trader,sort=nearest,limit=1] {WanderTarget:{X:-236,Y:1,Z:-110}}
+
+#removing cursed forest effect
+particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.98039215686274509803921568627451 0 1 0 force @s
