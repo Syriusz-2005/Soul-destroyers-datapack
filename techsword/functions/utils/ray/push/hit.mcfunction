@@ -1,5 +1,5 @@
 scoreboard players reset @p techsword.dist
-damage @s 1 player_attack
+damage @s 2.5 player_attack
 
 # Launch
 scoreboard players set $strength techsword.knockback_facing 14

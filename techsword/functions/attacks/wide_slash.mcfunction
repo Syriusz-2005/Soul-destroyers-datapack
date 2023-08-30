@@ -19,7 +19,7 @@ effect give @s minecraft:slowness 1 0 true
 # Attack
 scoreboard players set $strength techsword.knockback_facing 6
 execute anchored feet as @e[distance=0.1..3.5] facing entity @s feet rotated ~ -15 run function techsword:utils/knockback_facing
-execute as @e[distance=0.1..3.5] run damage @s 2 player_attack
+execute as @e[distance=0.1..3.5] run damage @s 4 player_attack
 
 #debug
 #say Sweep-a-ttack!
