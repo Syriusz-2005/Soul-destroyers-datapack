@@ -20,6 +20,8 @@
 		"w:generated/city-camp-fast-travel/tick",
 		"w:generated/camp-city-fast-travel/tick",
 		"animated_java:tick",
-		"mechanics:cursed_forest/tick"
+		"mechanics:cursed_forest/tick",
+		"w:generated/crossroads-city-fast-travel/tick",
+		"w:generated/city-crossroads-fast-travel/tick"
 	]
 }

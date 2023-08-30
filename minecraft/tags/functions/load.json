@@ -28,6 +28,8 @@
 		"health:load",
 		"w:generated/city-camp-fast-travel/load",
 		"w:generated/camp-city-fast-travel/load",
-		"animated_java:lava_spider/zzzzzzzz/load"
+		"animated_java:lava_spider/zzzzzzzz/load",
+		"w:generated/crossroads-city-fast-travel/load",
+		"w:generated/city-crossroads-fast-travel/load"
 	]
 }
