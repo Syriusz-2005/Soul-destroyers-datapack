@@ -16,9 +16,10 @@ execute store result entity @s Pos[0] double 0.001 run scoreboard players get #p
 execute store result entity @s Pos[1] double 0.001 run scoreboard players get #posY mob-abilities.math
 execute store result entity @s Pos[2] double 0.001 run scoreboard players get #posZ mob-abilities.math
 
+
+
 particle minecraft:squid_ink ^-2 ^ ^ 0 0 0 0 1
 particle minecraft:squid_ink ^-1 ^ ^ 0 0 0 0 1
-particle minecraft:squid_ink ^0 ^ ^ 0 0 0 0 1
 particle minecraft:squid_ink ^1 ^ ^ 0 0 0 0 1
 particle minecraft:squid_ink ^2 ^ ^ 0 0 0 0 1
 
@@ -27,11 +28,11 @@ scoreboard players operation #summonFangs mob-abilities.math %= %3 mob-abilities
 
 execute unless score #summonFangs mob-abilities.math matches 0 run return 1
 
-execute facing entity @p feet run summon evoker_fangs ^-2 ^ ^.5
-execute facing entity @p feet run summon evoker_fangs ^-1 ^ ^.5
-execute facing entity @p feet run summon evoker_fangs ^ ^ ^.5
-execute facing entity @p feet run summon evoker_fangs ^1 ^ ^.5
-execute facing entity @p feet run summon evoker_fangs ^2 ^ ^.5
+summon evoker_fangs ^-2 ^ ^.5
+summon evoker_fangs ^-1 ^ ^.5
+summon evoker_fangs ^ ^ ^.5
+summon evoker_fangs ^1 ^ ^.5
+summon evoker_fangs ^2 ^ ^.5
 
 
 
