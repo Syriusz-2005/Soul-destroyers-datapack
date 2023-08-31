@@ -31,7 +31,7 @@
 		"animated_java:lava_spider/zzzzzzzz/load",
 		"w:generated/crossroads-city-fast-travel/load",
 		"w:generated/city-crossroads-fast-travel/load",
-		"animated_java:forest_guardian/zzzzzzzz/load",
-		"mechanics:load"
+		"mechanics:load",
+		"animated_java:forest_guardian/zzzzzzzz/load"
 	]
 }
