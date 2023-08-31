@@ -11,3 +11,4 @@ execute as @e[tag=ma.wave.marker] at @s run function mob-abilities:guard_forest/
 execute as @e[tag=ma.spores_cloud] at @s run function mob-abilities:guard_forest/tick_as_spore_cloud
 execute as @e[tag=ma.warped_fungus_projectile] at @s run function mob-abilities:guard_forest/tick_as_fungus
 
+execute as @e[scores={ma.fungus_throw.preparation_cooldown=1..}] run function mob-abilities:guard_forest/tick_throwing_fungus

@@ -1,2 +1,5 @@
 
-execute facing entity @p feet summon minecraft:block_display run function mob-abilities:guard_forest/init_fungus
+
+
+scoreboard players set @s ma.fungus_throw.preparation_cooldown 30
+function animated_java:forest_guardian/animations/mushroom_toss/play

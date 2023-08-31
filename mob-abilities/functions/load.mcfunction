@@ -29,3 +29,4 @@ scoreboard objectives add mob-abilities.dz dummy
 scoreboard objectives add ma.guard_forest.attack_cooldown dummy
 scoreboard objectives add ma.wave.lifetime dummy
 scoreboard objectives add ma.fungus_throw.lifetime dummy
+scoreboard objectives add ma.fungus_throw.preparation_cooldown dummy
