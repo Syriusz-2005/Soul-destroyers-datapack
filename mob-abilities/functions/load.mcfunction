@@ -17,3 +17,6 @@ scoreboard objectives add mob-abilities.dy dummy
 scoreboard objectives add mob-abilities.dz dummy
 
 
+
+#declare tag mob-abilities.guard_forest
+scoreboard objectives add ma.guard_forest.attack_cooldown dummy
