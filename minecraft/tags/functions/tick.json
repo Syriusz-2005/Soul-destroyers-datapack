@@ -22,6 +22,7 @@
 		"mechanics:cursed_forest/tick",
 		"w:generated/crossroads-city-fast-travel/tick",
 		"w:generated/city-crossroads-fast-travel/tick",
-		"animated_java:tick"
+		"animated_java:tick",
+		"mechanics:forest_guardian_fight/tick"
 	]
 }
