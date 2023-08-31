@@ -1,5 +1,9 @@
 scoreboard objectives add mob-abilities.math dummy
 
+scoreboard players set %2 mob-abilities.math 2
+scoreboard players set %3 mob-abilities.math 3
+scoreboard players set %4 mob-abilities.math 4
+
 
 #declare tag mob-abilities.dasher
 scoreboard objectives add mob-abilities.dash.cooldown dummy
@@ -19,4 +23,6 @@ scoreboard objectives add mob-abilities.dz dummy
 
 
 #declare tag mob-abilities.guard_forest
+#declare tag ma.wave.marker
 scoreboard objectives add ma.guard_forest.attack_cooldown dummy
+scoreboard objectives add ma.wave.lifetime dummy
