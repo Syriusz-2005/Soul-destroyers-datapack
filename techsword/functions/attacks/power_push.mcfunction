@@ -10,7 +10,7 @@ scoreboard players set @s techsword.push_counter 0
 particle cloud ^ ^ ^2.5 0.2 0.2 0.2 0.03 7 force
 particle minecraft:cloud ~ ~0.5 ~ 0.125 0 0.125 0.08 10 force
 playsound minecraft:entity.player.attack.knockback master @a ~ ~ ~ 2 1.5
-playsound minecraft:block.rooted_dirt.step master @a ~ ~ ~ 2 1.4
+playsound minecraft:block.gravel.step master @a ~ ~ ~ 2 1.4
 # Prevent jump-launching
 #effect give @s minecraft:jump_boost 1 128 true
 effect give @s minecraft:slowness 1 0 true

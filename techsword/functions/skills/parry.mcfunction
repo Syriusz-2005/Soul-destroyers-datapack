@@ -4,7 +4,7 @@ execute unless score @s techsword.parry_timer matches 1.. run function techsword
 scoreboard players set @s techsword.parry_timer 6
 
 # Slowness
-effect give @s slowness 1 2 true
+effect give @s slowness 1 1 true
 
 # Mark parried enemies
 scoreboard players set @s techsword.dist 21

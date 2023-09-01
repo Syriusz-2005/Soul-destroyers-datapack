@@ -9,12 +9,12 @@ scoreboard players reset @s techsword.last_wide_attack_direction
 scoreboard players set @s techsword.attack_cooldown 16
 
 # FX
-execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:fx/wide_slash
+execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:vfx/wide_slash
 #execute rotated ~ 0 positioned ^1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^ ^ ^2 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^-1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 1.6 0.8
-playsound minecraft:block.rooted_dirt.step master @a ~ ~ ~ 1 1
+playsound minecraft:block.gravel.step master @a ~ ~ ~ 1.2 0.8
 effect give @s minecraft:slowness 1 0 true
 
 # Attack

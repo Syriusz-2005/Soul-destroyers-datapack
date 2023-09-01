@@ -13,7 +13,6 @@ execute rotated ~ 0 positioned ^ ^-1 ^ run function techsword:vfx/wide_slash
 #execute rotated ~ 0 positioned ^ ^ ^2 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 #execute rotated ~ 0 positioned ^-1 ^ ^1 run particle minecraft:sweep_attack ~ ~-0.5 ~ 0.1 0.1 0.1 1 3 force
 playsound minecraft:entity.player.attack.sweep master @a ~ ~ ~ 1.5 1
-playsound minecraft:block.rooted_dirt.step master @a ~ ~ ~ 1 1
 effect give @s minecraft:slowness 1 0 true
 
 # Attack
