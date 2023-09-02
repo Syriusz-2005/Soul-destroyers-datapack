@@ -12,3 +12,5 @@ execute as @e[tag=ma.spores_cloud] at @s run function mob-abilities:guard_forest
 execute as @e[tag=ma.warped_fungus_projectile] at @s run function mob-abilities:guard_forest/tick_as_fungus
 
 execute as @e[scores={ma.fungus_throw.preparation_cooldown=1..}] at @s run function mob-abilities:guard_forest/tick_throwing_fungus
+
+execute as @e[tag=mob-abilities.underwaterDasher,nbt=!{NoAI:true}] at @s run function mob-abilities:underwater_dash/tick

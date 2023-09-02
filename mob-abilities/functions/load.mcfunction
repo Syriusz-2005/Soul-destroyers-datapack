@@ -31,3 +31,7 @@ scoreboard objectives add ma.wave.lifetime dummy
 scoreboard objectives add ma.fungus_throw.lifetime dummy
 scoreboard objectives add ma.fungus_throw.preparation_cooldown dummy
 scoreboard objectives add ma.fungus_throw.counter dummy
+
+
+#declare tag mob-abilities.underwaterDasher
+scoreboard objectives add ma.underwaterDash.cooldown dummy
