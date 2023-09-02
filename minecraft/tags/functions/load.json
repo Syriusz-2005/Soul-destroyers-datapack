@@ -33,6 +33,7 @@
 		"w:generated/city-crossroads-fast-travel/load",
 		"mechanics:load",
 		"animated_java:forest_guardian/zzzzzzzz/load",
-		"mechanics:shooting_range/load"
+		"mechanics:shooting_range/load",
+		"animated_java:crab/zzzzzzzz/load"
 	]
 }
