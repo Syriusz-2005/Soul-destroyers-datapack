@@ -1,0 +1,1 @@
+scoreboard objectives add w.shooting_range dummy

@@ -1,0 +1,1 @@
+summon guardian ~ ~ ~ {Tags:["w.shooting_range.target"],Glowing:1b,Invulnerable:1b,NoAI:1b,NoGravity:1b,PersistenceRequired:1b,Silent:1b,ActiveEffects:[{Id:14,Duration:2147483647,ShowParticles:0b}]}

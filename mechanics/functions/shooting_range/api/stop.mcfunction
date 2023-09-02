@@ -1,0 +1,1 @@
+scoreboard players set $Delay w.shooting_range 0

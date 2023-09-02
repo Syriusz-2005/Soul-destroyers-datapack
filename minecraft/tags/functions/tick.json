@@ -1,9 +1,10 @@
 {
 	"values": [
-		"w:generated/tick",
-		"w:poc/animations/tick",
-		"w:generated/path-test/tick",
 		"w:scenes/main/tick",
+		"w:poc/animations/tick",
+		"w:poc/spectate",
+		"w:generated/tick",
+		"w:generated/path-test/tick",
 		"w:generated/beggar-begging/tick",
 		"w:generated/emperor-speech-1/tick",
 		"w:generated/kaktis-first-scene/tick",
@@ -13,16 +14,16 @@
 		"w:generated/test-pathfinding/tick",
 		"w:generated/transition/tick",
 		"w:generated/castle-travel/tick",
-		"w:poc/spectate",
+		"w:generated/crossroads-city-fast-travel/tick",
+		"w:generated/city-crossroads-fast-travel/tick",
+		"w:generated/city-camp-fast-travel/tick",
+		"w:generated/camp-city-fast-travel/tick",
 		"techsword:event/tick",
 		"mob-abilities:tick",
 		"health:tick",
-		"w:generated/city-camp-fast-travel/tick",
-		"w:generated/camp-city-fast-travel/tick",
+		"animated_java:tick",
 		"mechanics:cursed_forest/tick",
-		"w:generated/crossroads-city-fast-travel/tick",
-		"w:generated/city-crossroads-fast-travel/tick",
 		"mechanics:forest_guardian_fight/tick",
-		"animated_java:tick"
+		"mechanics:shooting_range/tick"
 	]
 }
