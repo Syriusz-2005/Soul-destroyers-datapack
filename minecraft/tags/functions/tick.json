@@ -24,6 +24,7 @@
 		"mechanics:cursed_forest/tick",
 		"mechanics:forest_guardian_fight/tick",
 		"mechanics:shooting_range/tick",
-		"animated_java:tick"
+		"animated_java:tick",
+		"mechanics:puppets/tick"
 	]
 }
