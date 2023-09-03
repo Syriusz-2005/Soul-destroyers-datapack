@@ -36,6 +36,7 @@
 		"mechanics:shooting_range/load",
 		"animated_java:crab/zzzzzzzz/load",
 		"animated_java:large_crab/zzzzzzzz/load",
-		"mechanics:puppets/load"
+		"mechanics:puppets/load",
+		"animated_java:demo_title/zzzzzzzz/load"
 	]
 }
