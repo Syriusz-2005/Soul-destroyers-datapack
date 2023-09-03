@@ -37,6 +37,7 @@
 		"animated_java:crab/zzzzzzzz/load",
 		"animated_java:large_crab/zzzzzzzz/load",
 		"mechanics:puppets/load",
-		"animated_java:demo_title/zzzzzzzz/load"
+		"animated_java:demo_title/zzzzzzzz/load",
+		"w:generated/mine-elevator/load"
 	]
 }
