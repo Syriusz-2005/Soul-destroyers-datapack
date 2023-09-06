@@ -25,7 +25,7 @@
 		"mechanics:forest_guardian_fight/tick",
 		"mechanics:shooting_range/tick",
 		"mechanics:puppets/tick",
-		"animated_java:tick",
-		"w:generated/mine-elevator/tick"
+		"w:generated/mine-elevator/tick",
+		"animated_java:tick"
 	]
 }
