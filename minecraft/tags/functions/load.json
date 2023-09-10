@@ -39,6 +39,7 @@
 		"mechanics:puppets/load",
 		"animated_java:demo_title/zzzzzzzz/load",
 		"w:generated/mine-elevator/load",
-		"animated_java:bandit/zzzzzzzz/load"
+		"animated_java:bandit/zzzzzzzz/load",
+		"animated_java:recruiter/zzzzzzzz/load"
 	]
 }
