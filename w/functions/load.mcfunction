@@ -33,3 +33,8 @@ scoreboard objectives add w.modelSkeleton.lastHp dummy
 
 team add w.noCollision
 team modify w.noCollision collisionRule never
+
+#declare tag w.newPlayer
+
+execute as @a[tag=w.newPlayer] in w:warland run function w:generated/main-menu/0-0
+execute as @a[tag=w.newPlayer] run tag @s remove w.newPlayer

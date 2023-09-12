@@ -8,3 +8,4 @@ execute as @e[tag=w.no-fire] run data modify entity @s Fire set value -2
 
 # Remove empty invisible item frames
 execute as @e[type=item_frame,nbt={Invisible:true,Invulnerable:false}] unless entity @s[nbt={Item:{Count:1b}}] run kill @s
+
