@@ -13,7 +13,7 @@ execute unless entity @p[distance=..20] run return 1
 
 #Applying random chance
 scoreboard players set $min random 0
-scoreboard players set $max random 80
+scoreboard players set $max random 120
 function random:uniform
 execute unless score $out random matches 0 run return 1
 

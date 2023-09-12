@@ -1,12 +1,12 @@
 
 
-data merge entity @s {block_state:{Name:"minecraft:cobweb"},brightness:{block:15,sky:15},transformation:{scale:[0.5f,0.5f,0.5f]},Tags:["mob-abilities.cobweb-projectile"]}
+data merge entity @s {block_state:{Name:"minecraft:cobweb"},brightness:{block:15,sky:15},transformation:{scale:[0.7f,0.7f,0.7f]},Tags:["mob-abilities.cobweb-projectile"]}
 
 
 scoreboard players set @s mob-abilities.cobweb-throw.lifetime 100
 
 
-execute anchored feet facing entity @p eyes positioned ^ ^ ^1 run summon marker ~ ~ ~ {Tags: ["mob-abilities.raycaster"]}
+execute anchored feet facing entity @p eyes positioned ^ ^ ^.9 run summon marker ~ ~ ~ {Tags: ["mob-abilities.raycaster"]}
 
 execute store result score $X mob-abilities.math run data get entity @s Pos[0] 1000
 execute store result score $Y mob-abilities.math run data get entity @s Pos[1] 1000
