@@ -1,1 +1,1 @@
-item replace entity @s weapon with stick{Tags:["techsword"]}
+item replace entity @s weapon with stick{Tags:["techsword"],CustomModelData:2137001}
