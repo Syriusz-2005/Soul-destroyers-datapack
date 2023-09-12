@@ -30,3 +30,6 @@ scoreboard objectives add w.cz dummy
 
 scoreboard objectives add w.modelSkeleton.lastHp dummy
 
+
+team add w.noCollision
+team modify w.noCollision collisionRule never
