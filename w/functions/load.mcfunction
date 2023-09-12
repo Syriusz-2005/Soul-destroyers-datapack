@@ -1,5 +1,7 @@
 
 
+forceload add -200 41
+
 scoreboard objectives add w.scenes dummy
 scoreboard objectives add w.death deathCount
 scoreboard objectives add w.death-ticks dummy

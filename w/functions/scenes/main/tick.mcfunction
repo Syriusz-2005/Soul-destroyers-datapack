@@ -10,6 +10,5 @@ execute as @e[tag=w.no-fire] run data modify entity @s Fire set value -2
 execute as @e[type=item_frame,nbt={Invisible:true,Invulnerable:false}] unless entity @s[nbt={Item:{Count:1b}}] run kill @s
 
 #declare tag w.builder
-execute as @a[scores={w.left=1..},tag=!w.builder] run say hello!
-execute as @a[scores={w.left=1..},tag=!w.builder] run function w:generated/main-menu/0-0
-execute as @a[scores={w.left=1..},tag=!w.builder] run scoreboard players reset @s
+execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run function w:generated/main-menu/0-0
+execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run scoreboard players reset @s
