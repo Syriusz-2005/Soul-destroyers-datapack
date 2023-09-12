@@ -34,4 +34,4 @@ scoreboard players operation $dZ mob-abilities.math -= $Z mob-abilities.math
 
 effect give @s speed 3 2 true
 
-scoreboard players set @s mob-abilities.dash.dashing-ticks 8
+scoreboard players set @s mob-abilities.dash.dashing-ticks 60

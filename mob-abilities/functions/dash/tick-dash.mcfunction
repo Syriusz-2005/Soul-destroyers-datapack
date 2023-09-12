@@ -11,4 +11,4 @@ scoreboard players remove @s mob-abilities.dash.dashing-ticks 1
 # execute store result entity @s Motion[2] double 0.001 run scoreboard players get $Z mob-abilities.math
 
 
-particle crit ~ ~ ~ .1 .1 .1 0 4
+particle crit ~ ~.4 ~ .2 .5 .2 0 7
