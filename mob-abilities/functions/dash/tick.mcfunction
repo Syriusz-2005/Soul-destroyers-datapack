@@ -15,5 +15,7 @@ function random:uniform
 
 execute unless score $out random matches 0 run return 1
 
+execute if entity @s[nbt={NoAI:true}] run return 1
+
 scoreboard players set @s mob-abilities.dash.cooldown 200
 scoreboard players set @s mob-abilities.dash.preparation-colldown 30

@@ -36,5 +36,6 @@ team modify w.noCollision collisionRule never
 
 #declare tag w.newPlayer
 
-execute as @a[tag=w.newPlayer] in w:warland run function w:generated/main-menu/0-0
-execute as @a[tag=w.newPlayer] run tag @s remove w.newPlayer
+
+
+scoreboard objectives add w.left custom:leave_game

@@ -1,4 +1,5 @@
 
+
 scoreboard players remove @s mob-abilities.dash.preparation-colldown 1
 
 execute if score @s mob-abilities.dash.preparation-colldown matches 0 run function mob-abilities:dash/run-dash

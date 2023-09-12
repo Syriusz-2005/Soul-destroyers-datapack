@@ -9,3 +9,7 @@ execute as @e[tag=w.no-fire] run data modify entity @s Fire set value -2
 # Remove empty invisible item frames
 execute as @e[type=item_frame,nbt={Invisible:true,Invulnerable:false}] unless entity @s[nbt={Item:{Count:1b}}] run kill @s
 
+#declare tag w.builder
+execute as @a[scores={w.left=1..},tag=!w.builder] run say hello!
+execute as @a[scores={w.left=1..},tag=!w.builder] run function w:generated/main-menu/0-0
+execute as @a[scores={w.left=1..},tag=!w.builder] run scoreboard players reset @s
