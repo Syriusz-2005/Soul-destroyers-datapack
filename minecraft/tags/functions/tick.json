@@ -26,8 +26,8 @@
 		"mechanics:shooting_range/tick",
 		"mechanics:puppets/tick",
 		"w:generated/mine-elevator/tick",
-		"animated_java:tick",
 		"mechanics:model_optimization/tick",
-		"music:cliffhorn_theme/tick"
+		"music:cliffhorn_theme/tick",
+		"animated_java:tick"
 	]
 }
