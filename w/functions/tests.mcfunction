@@ -70,3 +70,6 @@ particle minecraft:entity_effect ~ ~ ~ 0.9960784313725490196078431372549 0.98039
 
 
 summon minecraft:skeleton ~ ~ ~ {Tags: ["w.forestGurdian.skeleton","mob-abilities.guard_forest"]}
+
+#optimizing a model
+execute as @e[tag=aj.rig_root,limit=1,sort=nearest,distance=..2] run tag @s add mechanics.optimizableModel

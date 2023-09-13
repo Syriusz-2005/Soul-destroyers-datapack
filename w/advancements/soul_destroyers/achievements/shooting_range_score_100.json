@@ -2,10 +2,11 @@
 	"parent": "w:soul_destroyers/achievements/root",
 	"display": {
 			"icon": {
-					"item": "minecraft:crossbow"
+					"item": "minecraft:crossbow",
+					"nbt": "{Enchantments:[{}]}"
 			},
-			"title": "Dedication",
-			"description": "Beat the highscore in shooting range",
+			"title": "True Gunslinger",
+			"description": "Score 100 in shooting range",
 			"frame": "challenge",
 			"show_toast": true,
 			"announce_to_chat": true,

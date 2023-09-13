@@ -20,3 +20,6 @@ execute if entity @s[tag=mechanics.internal.modelMarker.skeleton_1] run function
 execute if entity @s[tag=mechanics.internal.modelMarker.skeleton_lying_1] run function animated_java:skeleton_lying_1/summon
 
 
+execute as @e[tag=aj.rig_root,limit=1,sort=nearest,distance=..1] run tag @s add mechanics.optimizableModel
+
+
