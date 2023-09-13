@@ -1,0 +1,35 @@
+{
+	"parent": "w:soul_destroyers/root",
+  "display": {
+    "icon": {
+      "item": "minecraft:player_head",
+			"nbt": "{SkullOwner:{Id:[I;-1716508749,-1305394507,-1252528168,1570202004],Properties:{textures:[{Value:\"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzNjMWI3NzlmMjg5MTY0ZjBmNzRhOGYxYjZmOGU2ZGRmNTVjOGU2NTA4YTMwN2M3MjM0NDI4ZDk3ZDMyZGMyYSJ9fX0=\"}]}}}"
+    },
+    "title": "Can't have sh!t in Detroit!",
+    "description": "Steal some 5#!T from and outhouse",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "acquire_poop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:player_head"
+            ],
+            "nbt": "{Tag:\"poop\"}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "acquire_poop"
+    ]
+  ]
+}

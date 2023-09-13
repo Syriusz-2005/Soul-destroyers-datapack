@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:soul_lantern"
+    },
+    "title": "Achievements",
+    "description": "These are achievements of Soul Destroyers!",
+    "background": "minecraft:textures/block/warped_wart_block.png",
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": false
+  },
+  "criteria": {
+    "acquire_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:stick"
+            ],
+            "nbt": "{Tags:[\"techsword\"]}"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "acquire_sword"
+    ]
+  ]
+}
