@@ -1,0 +1,30 @@
+{
+  "criteria": {
+    "target_hit": {
+      "trigger": "minecraft:target_hit",
+      "conditions": {
+        "projectile": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "distance": {
+                "horizontal": {
+                  "min": 30
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "target_hit"
+    ]
+  ],
+  "rewards": {
+    "function": "w:events/target_hit"
+  }
+}

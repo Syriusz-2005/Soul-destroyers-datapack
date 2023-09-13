@@ -26,6 +26,7 @@
 		"mechanics:shooting_range/tick",
 		"mechanics:puppets/tick",
 		"w:generated/mine-elevator/tick",
-		"animated_java:tick"
+		"animated_java:tick",
+		"mechanics:model_optimization/tick"
 	]
 }

@@ -1,0 +1,16 @@
+{
+	"parent": "w:soul_destroyers/achievements/root",
+	"display": {
+			"icon": {
+					"item": "minecraft:crossbow"
+			},
+			"title": "Dedication",
+			"description": "Beat the highscore in shooting range"
+	},
+	"criteria": {
+		"no": {
+			"trigger": "impossible"
+		}
+	},
+	"requirements": [["no"]]
+}
