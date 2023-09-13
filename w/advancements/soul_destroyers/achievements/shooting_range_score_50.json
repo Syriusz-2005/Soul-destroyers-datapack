@@ -4,7 +4,7 @@
 			"icon": {
 					"item": "minecraft:crossbow"
 			},
-			"title": "The power of blowpipe",
+			"title": "Dedication",
 			"description": "Score 50 in shooting range",
 			"frame": "challenge",
 			"show_toast": true,

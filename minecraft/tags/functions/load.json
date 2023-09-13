@@ -43,6 +43,7 @@
 		"animated_java:bandit/zzzzzzzz/load",
 		"animated_java:miner/zzzzzzzz/load",
 		"animated_java:captain/zzzzzzzz/load",
-		"animated_java:bandit_with_a_knife/zzzzzzzz/load"
+		"animated_java:bandit_with_a_knife/zzzzzzzz/load",
+		"music:cliffhord_theme/load"
 	]
 }

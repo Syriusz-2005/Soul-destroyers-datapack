@@ -2,11 +2,10 @@
 	"parent": "w:soul_destroyers/achievements/root",
 	"display": {
 			"icon": {
-					"item": "minecraft:crossbow",
-					"nbt": "{Enchantments:[{}]}"
+					"item": "minecraft:crossbow"
 			},
-			"title": "True Gunslinger",
-			"description": "Score 100 in shooting range",
+			"title": "The power of blowpipe",
+			"description": "Score 30 in shooting range",
 			"frame": "challenge",
 			"show_toast": true,
 			"announce_to_chat": true,
