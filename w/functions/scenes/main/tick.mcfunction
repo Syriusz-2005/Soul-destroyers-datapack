@@ -12,3 +12,9 @@ execute as @e[type=item_frame,nbt={Invisible:true,Invulnerable:false}] unless en
 #declare tag w.builder
 execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run function w:generated/main-menu/0-0
 execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run scoreboard players reset @s
+
+execute as @a[tag=w.initialized] store result score #isRiding w.internal on vehicle if entity @s
+
+execute unless score #isRiding w.internal matches -2147483648..2147483647 as @a[tag=w.initialized] run spectate @e[tag=w.menuMarker,sort=nearest,limit=1]
+
+scoreboard players reset #isRiding w.internal

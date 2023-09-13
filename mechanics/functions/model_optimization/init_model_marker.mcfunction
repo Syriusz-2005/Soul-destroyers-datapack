@@ -1,7 +1,7 @@
 
 tag @s add mechanics.internal.modelMarker
 
-
+data modify entity @s Rotation set from entity @e[distance=..2,type=#animated_java:root,tag=mechanics.internal.currentRig,limit=1,sort=nearest] Rotation
 
 execute if entity @e[distance=..2,type=#animated_java:root,tag=aj.bandit.root,tag=mechanics.internal.currentRig] run tag @s add mechanics.internal.modelMarker.bandit
 execute if entity @e[distance=..2,type=#animated_java:root,tag=aj.bandit_with_a_knife.root,tag=mechanics.internal.currentRig] run tag @s add mechanics.internal.modelMarker.bandit_with_a_knife
