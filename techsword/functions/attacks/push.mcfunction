@@ -19,4 +19,6 @@ execute if score @s techsword.is_player_walking matches 1.. anchored feet rotate
 
 # Ray
 scoreboard players set @s techsword.dist 37
+tag @s add techsword.attacking
 function techsword:utils/ray/push/ray
+tag @s remove techsword.attacking

@@ -14,8 +14,8 @@ execute rotated ~ -90 run function delta:api/launch_looking
 
 # Attack
 scoreboard players set $strength knockback.api.knockback_facing 7
-execute rotated ~ 0 positioned ^ ^ ^2 rotated ~ -80 as @e[tag=techsword.enemy,distance=..1.5] run function knockback:api/knockback_facing
-execute rotated ~ 0 positioned ^ ^ ^2 as @e[tag=techsword.enemy,distance=..1.9] run damage @s 2 player_attack
+execute rotated ~ 0 positioned ^ ^ ^2 rotated ~ -80 as @e[nbt={Invulnerable:false},distance=..1.5] run function knockback:api/knockback_facing
+execute rotated ~ 0 positioned ^ ^ ^2 as @e[nbt={Invulnerable:false},distance=..1.9] run damage @s 2 player_attack
 
 #debug
 say Up-sweep-a-ttack!

@@ -2,7 +2,7 @@
 
 #execute as @a[tag=techsword] at @s unless entity @e[type=interaction,tag=techsword.input.2,distance=..3] anchored eyes positioned ^ ^ ^ run say summoning new inter
 
-execute as @a[tag=techsword] at @s unless entity @e[type=interaction,tag=techsword.input.2,distance=..3] anchored eyes positioned ^ ^ ^ run summon interaction ~ ~-0.5 ~1 {Tags:["techsword.input.2"],width:1,height:1}
+execute as @a[tag=techsword] at @s unless entity @e[type=interaction,tag=techsword.input.2,distance=..3] anchored eyes positioned ^ ^ ^ run summon interaction ~ ~-0.5 ~1 {Tags:["techsword.input.2"],width:1,height:1,Invulnerable:true}
 
 # Make "input" follow player
 execute as @a[tag=techsword] at @s anchored eyes positioned ^ ^ ^ run tp @e[type=interaction,tag=techsword.input.2,limit=1,sort=nearest] ~ ~-0.5 ~1
