@@ -12,7 +12,7 @@ playsound minecraft:block.gravel.step master @a ~ ~ ~ 1.2 1.7
 
 # Launch
 #function delta:api/launch_xyz
-scoreboard players set $strength delta.api.launch -6900
+scoreboard players set $strength delta.api.launch -8690
 execute facing entity @e[type=marker,tag=techsword.tracker,limit=1,sort=nearest] feet rotated ~ -30 run function delta:api/launch_looking
 
 # Cooldown

@@ -1,4 +1,5 @@
 ## Wide-slash in opposite direction that last one
+## THIS ATTACK IS UNUSED
 
 #Apply sum statistics
 scoreboard players operation @s techsword.last_wide_attack_direction = @s techsword.sweep_direction

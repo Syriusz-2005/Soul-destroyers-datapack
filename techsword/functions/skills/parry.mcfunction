@@ -8,4 +8,6 @@ effect give @s slowness 1 1 true
 
 # Mark parried enemies
 scoreboard players set @s techsword.dist 21
+tag @s add techsword.attacking
 execute anchored eyes run function techsword:utils/ray/parry/ray
+tag @s remove techsword.attacking

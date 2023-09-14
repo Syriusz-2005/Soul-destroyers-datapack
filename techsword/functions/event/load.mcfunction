@@ -27,3 +27,4 @@ scoreboard objectives add techsword.effects.parried dummy
 scoreboard objectives add techsword.parry_timer dummy
 
 scoreboard objectives add techsword.is_player_walking minecraft.custom:minecraft.walk_one_cm
+scoreboard objectives add techsword.is_player_crouching minecraft.custom:minecraft.crouch_one_cm

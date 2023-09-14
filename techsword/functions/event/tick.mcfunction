@@ -27,7 +27,8 @@ effect clear @a[scores={techsword.parry_timer=..0}] slowness
 scoreboard players reset @a[scores={techsword.parry_timer=..0}] techsword.parry_timer
 
 # Detect sweeping-motion
-execute as @a[tag=techsword] at @s run function techsword:utils/detect_sweeping_motion
+## UNUSED
+#execute as @a[tag=techsword] at @s run function techsword:utils/detect_sweeping_motion
 
 # Detect movement
 #execute as @a[tag=techsword] run function techsword:utils/detect_movement
@@ -41,6 +42,9 @@ execute as @e[scores={techsword.effects.parried=1..}] run function techsword:eff
 # Reset walk check
 scoreboard players set @a[scores={techsword.is_player_walking=1}] techsword.is_player_walking 0
 scoreboard players set @a[scores={techsword.is_player_walking=2..}] techsword.is_player_walking 1
+# ...and crouch check
+scoreboard players set @a[scores={techsword.is_player_crouching=1}] techsword.is_player_crouching 0
+scoreboard players set @a[scores={techsword.is_player_crouching=2..}] techsword.is_player_crouching 1
 
 # Manage input
 function techsword:summon_input_interaction/north
