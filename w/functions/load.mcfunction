@@ -1,4 +1,4 @@
-
+#declare objective w.internal
 
 scoreboard objectives add w.scenes dummy
 scoreboard objectives add w.death deathCount

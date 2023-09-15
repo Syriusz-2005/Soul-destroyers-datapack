@@ -16,5 +16,5 @@ execute as @e[tag=w.soul,tag=!w.soul.after-spawn] run tag @s add w.soul.after-sp
 execute as @e[tag=w.soul] at @s if entity @p[distance=..1.13] run function health:as-soul
 
 
-execute as @e[nbt={Item:{tag:{Tags:['w.soul-spawner']}}}] at @s run function health:summon-soul
-execute as @e[nbt={Item:{tag:{Tags:['w.soul-spawner']}}}] run kill @s
+execute as @e[type=item,nbt={Item:{tag:{Tags:['w.soul-spawner']}}}] at @s run function health:summon-soul
+execute as @e[type=item,nbt={Item:{tag:{Tags:['w.soul-spawner']}}}] run kill @s
