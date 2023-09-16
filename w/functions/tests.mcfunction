@@ -73,3 +73,6 @@ summon minecraft:skeleton ~ ~ ~ {Tags: ["w.forestGurdian.skeleton","mob-abilitie
 
 #optimizing a model
 execute as @e[tag=aj.rig_root,limit=1,sort=nearest,distance=..2] run tag @s add mechanics.optimizableModel
+
+
+summon minecraft:text_display ~ ~ ~ {background: 0, billboard:"vertical", text:'{"text": "\\uE000"}'}
