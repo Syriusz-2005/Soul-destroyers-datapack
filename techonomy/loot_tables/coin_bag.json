@@ -1,0 +1,36 @@
+{
+	"pools": [
+		{
+			"rolls": 1,
+			"entries": [
+				{
+					"type": "item",
+					"name": "carrot_on_a_stick",
+					"functions": [
+						{
+							"function": "set_nbt",
+							"tag": "{Tags:[\"techonomy.coin_bag\"],CustomModelData:2137002}"
+						},
+						{
+							"function": "set_name",
+							"name": {
+								"text": "Coin bag",
+								"italic": false,
+								"color": "yellow"
+							}
+						},
+						{
+							"function": "set_lore",
+							"lore": [
+								{
+									"text": "Select the item to display gold coins count",
+									"color": "dark_gray"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

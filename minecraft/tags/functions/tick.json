@@ -28,6 +28,7 @@
 		"w:generated/mine-elevator/tick",
 		"mechanics:model_optimization/tick",
 		"music:cliffhorn_theme/tick",
-		"animated_java:tick"
+		"animated_java:tick",
+		"techonomy:event/tick"
 	]
 }

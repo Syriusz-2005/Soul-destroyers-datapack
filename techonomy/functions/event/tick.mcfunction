@@ -1,0 +1,1 @@
+execute as @a[nbt={SelectedItem:{tag:{Tags:["techonomy.coin_bag"]}}}] run title @s actionbar [{"text":"Gold coins: ","color":"gray"},{"score":{"name": "@s","objective": "techonomy.coins"},"color": "gold","bold": true}]
