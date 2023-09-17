@@ -1,1 +1,1 @@
-summon armor_stand ~ ~ ~ {Tags:["mechanics.witness"]}
+summon marker ~ ~ ~ {Tags:["mechanics.witness"]}
