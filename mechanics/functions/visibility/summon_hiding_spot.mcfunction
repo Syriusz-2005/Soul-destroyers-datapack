@@ -1,0 +1,1 @@
+summon marker ~ ~ ~ {Tags:["mechanics.hiding_spot"]}

@@ -18,3 +18,6 @@ execute as @a[tag=w.initialized] store result score #isRiding w.internal on vehi
 execute unless score #isRiding w.internal matches -2147483648..2147483647 as @a[tag=w.initialized] run spectate @e[tag=w.menuMarker,sort=nearest,limit=1]
 
 scoreboard players reset #isRiding w.internal
+
+
+execute as @e[tag=w.lordHorse] at @s on passengers run data modify entity @s Rotation set from entity @e[tag=w.lordHorse,sort=nearest,limit=1] Rotation

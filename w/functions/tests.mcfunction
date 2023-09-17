@@ -76,3 +76,6 @@ execute as @e[tag=aj.rig_root,limit=1,sort=nearest,distance=..2] run tag @s add 
 
 
 summon minecraft:text_display ~ ~ ~ {background: 0, billboard:"vertical", text:'{"text": "\\uE000"}'}
+
+
+summon horse -1058.55 86.00 -268.76 {Tags: ["w.lordHorse"],NoAI:true,Passengers:[{id: "minecraft:villager",Silent:true,Invulnerable:true,Tags:["w.lord.skeleton"]}]}

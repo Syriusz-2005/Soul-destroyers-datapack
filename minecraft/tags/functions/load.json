@@ -17,7 +17,6 @@
 		"animated_java:skeleton_lying_1/zzzzzzzz/load",
 		"animated_java:horse_skeleton_1/zzzzzzzz/load",
 		"animated_java:menu_title/zzzzzzzz/load",
-		"animated_java:beggar_1/zzzzzzzz/load",
 		"animated_java:fish_seller/zzzzzzzz/load",
 		"piano:setup",
 		"delta:internal/technical/load",
@@ -46,6 +45,10 @@
 		"music:cliffhorn_theme/load",
 		"animated_java:demo_title/zzzzzzzz/load",
 		"animated_java:the_creators/zzzzzzzz/load",
-		"techonomy:event/load"
+		"techonomy:event/load",
+		"animated_java:locator_poc/zzzzzzzz/load",
+		"animated_java:beggar_1/zzzzzzzz/load",
+		"animated_java:the_lord/zzzzzzzz/load",
+		"mechanics:visibility/load"
 	]
 }
