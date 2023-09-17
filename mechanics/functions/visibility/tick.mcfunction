@@ -1,10 +1,14 @@
 execute as @a[tag=!mechanics.hidden_player,gamemode=!spectator,scores={mechanics.exposure=-1..},tag=w.player] at @s at @e[tag=mechanics.witness,distance=..160,limit=1,sort=nearest] run function mechanics:visibility/_apply_exposure
+execute as @a[tag=w.player,scores={mechanics.exposure=-1..}] if entity @s[nbt={SelectedItem:{id:"minecraft:stick"}}] run scoreboard players add @s mechanics.exposure 4
+
 
 scoreboard players set #2 w.internal 2
 scoreboard players set $stunt-ticks effect.tick 160
-scoreboard players operation $stunt-ticks effect.tick -= @a[scores={mechanics.exposure=-1..},tag=w.player,limit=1] mechanics.exposure
+scoreboard players operation $stunt-ticks effect.tick = @a[scores={mechanics.exposure=-1..},tag=w.player,limit=1] mechanics.exposure
 scoreboard players operation $stunt-ticks effect.tick /= #2 w.internal
-execute if score $stunt-ticks effect.tick matches 70.. run scoreboard players set $stunt-ticks effect.tick 70
+execute if score $stunt-ticks effect.tick matches 69.. run scoreboard players set $stunt-ticks effect.tick 69
+execute if score $stunt-ticks effect.tick matches 0..1 run scoreboard players set $stunt-ticks effect.tick 2
+
 
 # Hide
 execute as @a[tag=!mechanics.hidden_player,gamemode=!spectator,scores={mechanics.exposure=0..}] at @s if entity @e[type=marker,tag=mechanics.hiding_spot,distance=..1] run function mechanics:visibility/_hide
