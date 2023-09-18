@@ -29,7 +29,7 @@
 		"mechanics:model_optimization/tick",
 		"music:cliffhorn_theme/tick",
 		"techonomy:event/tick",
-		"animated_java:tick",
-		"mechanics:visibility/tick"
+		"mechanics:visibility/tick",
+		"animated_java:tick"
 	]
 }

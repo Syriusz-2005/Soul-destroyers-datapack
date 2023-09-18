@@ -49,6 +49,7 @@
 		"animated_java:locator_poc/zzzzzzzz/load",
 		"animated_java:beggar_1/zzzzzzzz/load",
 		"animated_java:the_lord/zzzzzzzz/load",
-		"mechanics:visibility/load"
+		"mechanics:visibility/load",
+		"animated_java:lords_guards/zzzzzzzz/load"
 	]
 }

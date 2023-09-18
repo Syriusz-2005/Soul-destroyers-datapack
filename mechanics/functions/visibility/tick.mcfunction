@@ -8,7 +8,7 @@ scoreboard players operation $stunt-ticks effect.tick = @a[scores={mechanics.exp
 scoreboard players operation $stunt-ticks effect.tick /= #2 w.internal
 execute if score $stunt-ticks effect.tick matches 69.. run scoreboard players set $stunt-ticks effect.tick 69
 execute if score $stunt-ticks effect.tick matches 0..1 run scoreboard players set $stunt-ticks effect.tick 2
-
+execute unless entity @e[tag=mechanics.witness] run scoreboard players set $stunt-ticks effect.tick 0
 
 # Hide
 execute as @a[tag=!mechanics.hidden_player,gamemode=!spectator,scores={mechanics.exposure=0..}] at @s if entity @e[type=marker,tag=mechanics.hiding_spot,distance=..1] run function mechanics:visibility/_hide
