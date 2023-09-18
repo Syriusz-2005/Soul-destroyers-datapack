@@ -9,3 +9,8 @@ bossbar add minecraft:stealth {"text":"\uFFF2","font":"bossbars:bossbar"}
 bossbar set stealth max 160
 bossbar set stealth visible true
 bossbar set stealth players @a
+
+bossbar add stealthtime {"text":"\uFFF3","font":"bossbars:bossbar"}
+bossbar set stealthtime max 1000
+bossbar set stealthtime visible true
+bossbar set stealthtime players @a
