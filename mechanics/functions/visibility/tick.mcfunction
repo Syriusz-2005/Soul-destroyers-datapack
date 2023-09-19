@@ -26,5 +26,6 @@ execute if entity @e[tag=mechanics.witness] store result bossbar stealth value r
 execute if entity @e[tag=mechanics.witness] if entity @a[tag=w.player] if score $stealthTime w.internal matches 1.. run scoreboard players remove $stealthTime w.internal 1
 execute store result bossbar stealthtime value run scoreboard players get $stealthTime w.internal
 
-execute if entity @e[tag=mechanics.witness] if score $stealthTime w.internal matches 0 run title @a title {"text": "You've ran out of time!", "bold": true,"color": "red"}
-execute if entity @e[tag=mechanics.witness] if score $stealthTime w.internal matches 0 run function w:generated/evaporation-pt-2/0-0
+execute if entity @e[tag=mechanics.witness] if score $stealthTime w.internal matches 1 run title @a title {"text": "You've ran out of time!", "bold": true,"color": "red"}
+execute if entity @e[tag=mechanics.witness] if score $stealthTime w.internal matches 1 run tp @s -1076.72 92.00 -193.52 -620.54 -8.96
+execute if entity @e[tag=mechanics.witness] if score $stealthTime w.internal matches 1 run function w:generated/evaporation-pt-2/0-0

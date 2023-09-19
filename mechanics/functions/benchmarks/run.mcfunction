@@ -16,6 +16,8 @@ execute store result score #armorStandsCount w.internal if entity @e[type=armor_
 execute store result score #blockDisplaysCount w.internal if entity @e[type=block_display]
 execute store result score #textDisplaysCount w.internal if entity @e[type=text_display]
 execute store result score #itemDisplaysCount w.internal if entity @e[type=item_display]
+execute store result score #itemFramesCount w.internal if entity @e[type=item_frame]
+
 
 
 
@@ -43,7 +45,6 @@ tellraw @a [{"text": "Armor stands count: ", "color": "gray"}, {"score": {"name"
 tellraw @a [{"text": "Block displays count: ", "color": "gray"}, {"score": {"name": "#blockDisplaysCount", "objective": "w.internal"}, "color": "aqua"}]
 tellraw @a [{"text": "Text displays count: ", "color": "gray"}, {"score": {"name": "#textDisplaysCount", "objective": "w.internal"}, "color": "aqua"}]
 tellraw @a [{"text": "Item displays count: ", "color": "gray"}, {"score": {"name": "#itemDisplaysCount", "objective": "w.internal"}, "color": "aqua"}]
-
-
+tellraw @a [{"text": "Item frames count: ", "color": "gray"}, {"score": {"name": "#itemFramesCount", "objective": "w.internal"}, "color": "aqua"}]
 
 tellraw @a {"text": "\n"}
