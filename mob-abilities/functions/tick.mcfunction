@@ -14,3 +14,6 @@ execute as @e[tag=ma.warped_fungus_projectile] at @s run function mob-abilities:
 execute as @e[scores={ma.fungus_throw.preparation_cooldown=1..}] at @s run function mob-abilities:guard_forest/tick_throwing_fungus
 
 execute as @e[tag=mob-abilities.underwaterDasher,nbt=!{NoAI:true}] at @s run function mob-abilities:underwater_dash/tick
+
+execute as @e[tag=ma.halberdAttacker] at @s run function mob-abilities:halberd_attack/tick_as_attacker
+execute as @e[tag=ma.halberdAttacker,scores={ma.halberdAttack.preparation_cooldown=1..}] at @s run function mob-abilities:halberd_attack/tick_attack_prepare

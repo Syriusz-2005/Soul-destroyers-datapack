@@ -35,3 +35,8 @@ scoreboard objectives add ma.fungus_throw.counter dummy
 
 #declare tag mob-abilities.underwaterDasher
 scoreboard objectives add ma.underwaterDash.cooldown dummy
+
+
+#declare tag ma.halberdAttacker
+scoreboard objectives add ma.halberdAttack.cooldown dummy
+scoreboard objectives add ma.halberdAttack.preparation_cooldown dummy
