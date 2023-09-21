@@ -17,6 +17,8 @@ execute as @a[tag=w.player,gamemode=!spectator,scores={mechanics.exposure=1..}] 
 execute as @a[tag=mechanics.hidden_player] at @s unless entity @e[type=marker,tag=mechanics.hiding_spot,distance=..1] run function mechanics:visibility/_uncover
 
 execute at @e[type=marker,tag=mechanics.hiding_spot] run particle glow ~ ~ ~ 0.25 1.4 0.25 0 1 normal
+execute at @e[type=marker,tag=mechanics.final_hiding_spot] run particle minecraft:glow_squid_ink ~ ~ ~ 0 1 0 0 1
+
 
 execute as @a[tag=w.player,scores={mechanics.exposure=160..}] run tp @s -1076.72 92.00 -193.52 -620.54 -8.96
 execute as @a[tag=w.player,scores={mechanics.exposure=160..}] run title @a title {"text": "You've been caught!", "bold": true,"color": "red"}
