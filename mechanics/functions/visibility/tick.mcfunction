@@ -20,9 +20,9 @@ execute at @e[type=marker,tag=mechanics.hiding_spot] run particle glow ~ ~ ~ 0.2
 execute at @e[type=marker,tag=mechanics.final_hiding_spot] run particle minecraft:glow_squid_ink ~ ~ ~ 0 1 0 0 1
 
 
-execute as @a[tag=w.player,scores={mechanics.exposure=160..}] run tp @s -1076.72 92.00 -193.52 -620.54 -8.96
-execute as @a[tag=w.player,scores={mechanics.exposure=160..}] run title @a title {"text": "You've been caught!", "bold": true,"color": "red"}
-execute as @a[tag=w.player,scores={mechanics.exposure=160..}] run function w:generated/evaporation-pt-2/0-0
+execute as @a[tag=w.player,scores={mechanics.exposure=160..}] if entity @e[tag=mechanics.witness] run tp @s -1076.72 92.00 -193.52 -620.54 -8.96
+execute as @a[tag=w.player,scores={mechanics.exposure=160..}] if entity @e[tag=mechanics.witness] run title @a title {"text": "You've been caught!", "bold": true,"color": "red"}
+execute as @a[tag=w.player,scores={mechanics.exposure=160..}] if entity @e[tag=mechanics.witness] run function w:generated/evaporation-pt-2/0-0
 
 execute if entity @e[tag=mechanics.witness] store result bossbar stealth value run scoreboard players get @a[tag=w.player,sort=nearest,limit=1] mechanics.exposure
 execute if entity @e[tag=mechanics.witness] if entity @a[tag=w.player] if score $stealthTime w.internal matches 1.. run scoreboard players remove $stealthTime w.internal 1
