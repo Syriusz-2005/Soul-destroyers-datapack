@@ -11,8 +11,8 @@ execute as @e[type=item_frame,nbt={Invisible:true,Invulnerable:false}] unless en
 
 #declare tag w.builder
 #TODO: REMOVE THE COMENTS BELOW BEFORE SHIPPING TO PRODUCTION
-# execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run function w:generated/main-menu/0-0
-# execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run scoreboard players reset @s
+execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run function w:generated/main-menu/0-0
+execute as @a[scores={w.left=1..},tag=!w.player,tag=!w.builder] if entity 4b46e8fb-7bb9-4fc1-9014-17b8748f1bc1 run scoreboard players reset @s
 
 execute as @a[tag=w.initialized] store result score #isRiding w.internal on vehicle if entity @s
 
