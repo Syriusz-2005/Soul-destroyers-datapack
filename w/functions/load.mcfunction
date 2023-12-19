@@ -39,3 +39,5 @@ team modify w.noCollision collisionRule never
 
 
 scoreboard objectives add w.left custom:leave_game
+
+#declare score_holder %isProduction
