@@ -87,3 +87,6 @@ function mechanics:visibility/summon_witness
 execute positioned -1076.69 92.00 -193.51 run function mechanics:visibility/summon_hiding_spot
 
 give @s minecraft:barrier{ajjgui:{Widget:"button",Command:"say reseting the points"},display:{Name:'{"text":"Reset the kit"}'}}
+
+summon end_crystal ~ ~ ~ {Glowing: true, glow_color_override: 312312}
+summon armor_stand ~ ~ ~ {active_effects: [{id: "minecraft:glowing"}]}
